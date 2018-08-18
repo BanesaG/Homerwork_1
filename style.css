@@ -1,0 +1,83 @@
+div {
+    background-image: url("bckgrnd.png");
+    background-repeat: repeat;
+    background-position: viewport; 
+    background-attachment: fixed;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight:light;
+  font-size:24px;
+  color: black;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size:24px;
+  font-weight:bold;
+  color: black;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: light;
+  font-size:24px;
+  color: white
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size:14px;
+}
+
+section{
+  background-color:#969696; rgb(150, 150, 150, 0.6) repeat;
+  height: fixed
+}
+
+[alt="BanesaG_picture.png"] {
+  border: 3px #2c5fa8;
+}
+
+.round { 
+  border: 3px #2c5fa8;
+  padding: 15px;
+  border-image: url(BanesaG_picture.png) 30 stretch;
+  border-width: 200px;
+  border-radius: 100px;
+}
+
+.round {
+  border-radius: 100px;
+  overflow: hidden;
+  width: 200px;
+  height: 150px;
+}
+.round img {
+  display: block;
+/* Stretch 
+    height: 100%;
+    width: 100%; */
+min-width: 100%;
+min-height: 100%;
+}
+
+div {
+  background-color: #969696, rgb(150,150,150,0.6); opacity: 60%;
+  width: fixed;
+  border: none;
+  padding: 25x;
+  margin: 25px;
+  border-bottom: 
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: black
+}
