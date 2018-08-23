@@ -31,20 +31,32 @@ p {
 }
 
 section{
-  background-color:#969696; rgb(150, 150, 150, 0.6) repeat;
-  height: fixed
+  background-color:#969696; rgb(150, 150, 150, 0.6); repeat;
+  background-size: 300px 100px, cover
+ }
+
+* {
+  box-sizing:border-box;
 }
 
-[alt="BanesaG_picture.png"] {
-  border: 3px #2c5fa8;
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
 }
 
-.round { 
+.row::after {
+  content:"front-end.png"; "html+css+js.png"; "developer.png";
+  clear: both;
+  display: inline-block;
+}
+
+.round{ 
   border: 3px #2c5fa8;
   padding: 15px;
   border-image: url(BanesaG_picture.png) 30 stretch;
   border-width: 200px;
-  border-radius: 100px;
+  border-radius: 50px;
 }
 
 .round {
